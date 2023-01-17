@@ -1,0 +1,129 @@
+.main-wrapper {
+    height: 100%;
+    width: 100%;
+    background-color: $bg-color;
+}
+
+.container {
+    width: $conatiner-width; 
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.description-wrapper {
+    background-color: $bg-container-color;
+    padding: 50px;
+
+    h1 {
+        color: $main-heading-color;
+        margin-bottom: 30px;
+    }
+
+    h3 {
+        color: $sub-heading-color;
+        margin-bottom: 15px;
+    }
+
+}
+
+.description-text {
+    color: hsl(235deg 14% 85%);
+    line-height: 25px;
+}
+
+.detail-wrapper {
+
+    .subscription-wrapper {
+        background-color: $subscription-bg-color;
+        width: 50%;
+        padding: 50px;
+
+        .subscription-header {
+            font-size: 25px;
+            color: hsl(180deg 100% 93%);
+            margin-bottom: 20px;
+        }
+
+        .price{
+            font-size: 40px;
+            color: hsl(180deg 100% 93%)
+
+        }
+
+        .price-text{
+           color: hsl(182deg 62% 65%);
+           text-align: center;
+           padding: 10px;
+        }
+        .subscription-text{
+            color: hsl(180deg 100% 93%) ;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+        button{
+            background-color: hsl(72deg 69% 58%);
+            color:  hsl(180deg 100% 93%) ;
+            width: 100%;
+            border: none;
+            outline: none;
+            padding: 15px ;
+            border-radius: 5px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+    }
+
+    .info-wrapper {
+        background-color: $info-bg-color;
+        width: 50%;
+        padding: 50px;
+
+        .question-text {
+            font-size: 25px;
+            color: hsl(180deg 100% 93%);
+            margin-bottom: 20px;
+        }
+
+        .info-text {
+            color: hsl(183deg 72% 75%);
+            line-height: 25px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .container{
+       margin: 20px;
+    }
+
+   
+
+    .detail-wrapper{
+        display: flex;
+        flex-direction: column;
+        
+
+        .subscription-wrapper{
+            width: 100%;
+            padding: 25px;
+        }
+        .info-wrapper{
+            width: 100%;
+            padding: 25px;
+        }
+    }
+
+    .description-wrapper{
+        padding: 25px;
+    }
+
+   
+
+   
+
+}
+
+
