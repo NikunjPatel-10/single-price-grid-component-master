@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 700px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -84,7 +84,7 @@ body {
 }
 .detail-wrapper .subscription-wrapper button {
   background-color: hsl(72deg, 69%, 58%);
-  color: hsl(180deg, 100%, 93%);
+  color: hsl(69deg, 98%, 82%);
   width: 100%;
   border: none;
   outline: none;
@@ -92,6 +92,7 @@ body {
   border-radius: 5px;
   font-size: 15px;
   cursor: pointer;
+  font-weight: 700;
 }
 .detail-wrapper .info-wrapper {
   background-color: hsl(179deg, 47%, 52%);

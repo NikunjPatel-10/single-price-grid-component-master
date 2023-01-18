@@ -40,13 +40,13 @@
 
         .subscription-header {
             font-size: 25px;
-            color: hsl(180deg 100% 93%);
+            color: $primary;
             margin-bottom: 20px;
         }
 
         .price{
             font-size: 40px;
-            color: hsl(180deg 100% 93%)
+            color: $primary
 
         }
 
@@ -56,13 +56,13 @@
            padding: 10px;
         }
         .subscription-text{
-            color: hsl(180deg 100% 93%) ;
+            color: $primary;
             margin-top: 10px;
             margin-bottom: 30px;
         }
         button{
             background-color: hsl(72deg 69% 58%);
-            color:  hsl(180deg 100% 93%) ;
+            color: hsl(69deg 98% 82%) ;
             width: 100%;
             border: none;
             outline: none;
@@ -70,6 +70,7 @@
             border-radius: 5px;
             font-size: 15px;
             cursor: pointer;
+            font-weight: 700;
         }
 
     }
@@ -81,7 +82,7 @@
 
         .question-text {
             font-size: 25px;
-            color: hsl(180deg 100% 93%);
+            color: $primary;
             margin-bottom: 20px;
         }
 
@@ -99,7 +100,6 @@
        margin: 20px;
     }
 
-   
 
     .detail-wrapper{
         display: flex;
