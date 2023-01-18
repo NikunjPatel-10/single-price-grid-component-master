@@ -8,8 +8,10 @@ html,
 body {
   height: 100%;
   width: 100%;
+}
+
+body {
   overflow: hidden;
-  font-family: "Karla", sans-serif;
 }
 
 .d-flex {
@@ -32,6 +34,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: hsl(0deg, 0%, 94%);
+  font-family: "Karla", sans-serif;
 }
 
 .container {
@@ -129,24 +132,23 @@ body {
     padding: 25px;
   }
 }
-
-  @media only screen and (max-width: 375px) {
-    .container {
-      margin: 20px;
-    }
-    .detail-wrapper {
-      display: flex;
-      flex-direction: column;
-    }
-    .detail-wrapper .subscription-wrapper {
-      width: 100%;
-      padding: 25px;
-    }
-    .detail-wrapper .info-wrapper {
-      width: 100%;
-      padding: 25px;
-    }
-    .description-wrapper {
-      padding: 25px;
-    }
-}
+@media only screen and (max-width: 375px) {
+  .container {
+    margin: 20px;
+  }
+  .detail-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .detail-wrapper .subscription-wrapper {
+    width: 100%;
+    padding: 25px;
+  }
+  .detail-wrapper .info-wrapper {
+    width: 100%;
+    padding: 25px;
+  }
+  .description-wrapper {
+    padding: 25px;
+  }
+}/*# sourceMappingURL=style.css.map */
