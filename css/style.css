@@ -49,11 +49,11 @@ body {
   padding: 35px;
 }
 .description-wrapper h1 {
-  color: hsl(181deg, 34%, 51%);
+  color: hsl(177deg, 49%, 47%);
   margin-bottom: 25px;
 }
 .description-wrapper h3 {
-  color: hsl(70deg, 51%, 64%);
+  color: hsl(69deg, 58%, 63%);
   margin-bottom: 10px;
 }
 
@@ -68,13 +68,13 @@ body {
   padding: 35px;
 }
 .detail-wrapper .subscription-wrapper .subscription-header {
-  font-size: 25px;
-  color: hsl(180deg, 100%, 93%);
+  font-size: 20px;
+  color: hsl(180deg, 100%, 97%);
   margin-bottom: 20px;
 }
 .detail-wrapper .subscription-wrapper .price {
   font-size: 40px;
-  color: hsl(180deg, 100%, 93%);
+  color: hsl(180deg, 100%, 97%);
 }
 .detail-wrapper .subscription-wrapper .price-text {
   color: hsl(182deg, 62%, 65%);
@@ -82,13 +82,13 @@ body {
   padding: 10px;
 }
 .detail-wrapper .subscription-wrapper .subscription-text {
-  color: hsl(180deg, 100%, 93%);
+  color: hsl(180deg, 100%, 97%);
   margin-top: 10px;
   margin-bottom: 30px;
 }
 .detail-wrapper .subscription-wrapper button {
   background-color: hsl(72deg, 69%, 58%);
-  color: hsl(69deg, 98%, 82%);
+  color: hsl(65deg, 76%, 90%);
   width: 100%;
   border: none;
   outline: none;
@@ -99,17 +99,17 @@ body {
   font-weight: 700;
 }
 .detail-wrapper .info-wrapper {
-  background-color: hsl(179deg, 47%, 52%);
+  background-color: hsl(179deg, 46%, 53%);
   width: 50%;
   padding: 35px;
 }
 .detail-wrapper .info-wrapper .question-text {
-  font-size: 25px;
-  color: hsl(180deg, 100%, 93%);
+  font-size: 20px;
+  color: hsl(180deg, 100%, 97%);
   margin-bottom: 20px;
 }
 .detail-wrapper .info-wrapper .info-text {
-  color: hsl(183deg, 72%, 75%);
+  color: hsl(181deg, 88%, 87%);
   line-height: 25px;
 }
 

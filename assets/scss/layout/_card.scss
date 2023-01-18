@@ -40,7 +40,7 @@
         padding: 35px;
 
         .subscription-header {
-            font-size: 25px;
+            font-size: 20px;
             color: $primary;
             margin-bottom: 20px;
         }
@@ -63,7 +63,7 @@
         }
         button{
             background-color: hsl(72deg 69% 58%);
-            color: hsl(69deg 98% 82%) ;
+            color: hsl(65deg 76% 90%) ;
             width: 100%;
             border: none;
             outline: none;
@@ -82,13 +82,13 @@
         padding: 35px;
 
         .question-text {
-            font-size: 25px;
+            font-size: 20px;
             color: $primary;
             margin-bottom: 20px;
         }
 
         .info-text {
-            color: hsl(183deg 72% 75%);
+            color :hsl(181deg 88% 87%);
             line-height: 25px;
         }
     }
