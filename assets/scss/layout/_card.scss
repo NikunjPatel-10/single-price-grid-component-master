@@ -2,8 +2,8 @@
     height: 100%;
     width: 100%;
     background-color: $bg-color;
+    font-family: 'Karla', sans-serif;
 }
-
 .container {
     width: $conatiner-width; 
     border-radius: 10px;
@@ -98,7 +98,9 @@
 
     .container{
        margin: 20px;
+    
     }
+
 
     .detail-wrapper{
         display: flex;
@@ -119,6 +121,37 @@
         padding: 25px;
     }
 
+
 }
+
+@media only screen and (max-width: 375px) {
+
+    .container{
+       margin: 20px;
+    }
+
+    .detail-wrapper{
+        display: flex;
+        flex-direction: column;
+        
+        .subscription-wrapper{
+            width: 100%;
+            padding: 25px;
+        }
+        .info-wrapper{
+            width: 100%;
+            padding: 25px;
+        }
+    }
+
+    .description-wrapper{
+        padding: 25px;
+    }
+
+
+}
+
+
+
 
 
